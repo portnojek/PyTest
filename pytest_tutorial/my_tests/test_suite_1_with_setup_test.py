@@ -2,14 +2,8 @@ import pytest
 
 pytestmark = [pytest.mark.fe, pytest.mark.smoke]
 
-@pytest.fixture()
-def my_setup():
-    print("")
-    print(">>>> MY SETUP <<<<")
-
 
 @pytest.mark.smoke
-@pytest.mark.ll
 def test_login_page_valid_user():
     print("Login with valid user")
     print("Function: aaaaaaaa")
