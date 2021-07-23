@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="880e2e55-4b1d-4577-a109-a3d10d8a594d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pytest_tutorial/my_tests/api_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest_tutorial/my_tests/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest_tutorial/my_tests/demo_report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/ssqaapitest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/ssqaapitest/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/ssqaapitest/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ssqaapitest-1.0-py3.9.egg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/tests/test_healthcheck.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test_api_resources/PyTest_Intro(1).pdf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test_api_resources/SQL_Crash_Course_Resources/demostore13_db_dump.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test_api_resources/SQL_Crash_Course_Resources/employees_db_dump.sql" afterDir="false" />
@@ -825,11 +835,7 @@
       <change afterPath="$PROJECT_DIR$/../test_api_resources/api_testing_py_course_material/venv/Scripts/py.test.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test_api_resources/api_testing_py_course_material/venv/Scripts/pytest-script.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test_api_resources/api_testing_py_course_material/venv/Scripts/pytest.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/course-api-testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/course-api-testing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest_tutorial/my_tests/test_suite_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytest_tutorial/my_tests/test_suite_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest_tutorial/my_tests/test_suite_2_with_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytest_tutorial/my_tests/test_suite_2_with_class.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -848,8 +854,10 @@
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/setup.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/pytest_tutorial/my_tests/test_suite_1.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/pytest_tutorial/my_tests/test_suite_2_with_class.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/ssqaapitest/tests/test_healthcheck.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/pytest_tutorial/my_tests/api_test.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/pytest_tutorial/my_tests/test_suite_1_with_setup_test.py" root0="SKIP_INSPECTION" />
   </component>
