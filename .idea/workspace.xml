@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="880e2e55-4b1d-4577-a109-a3d10d8a594d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/lib/ssqaapitest/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/ssqaapitest/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/ssqaapitest/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/ssqaapitest-1.0-py3.9.egg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssqaapitest.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssqaapitest.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssqaapitest.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssqaapitest.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssqaapitest/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssqaapitest/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssqaapitest/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssqaapitest/tests/test_healthcheck.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/ssqaapitest/src/utilities/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/ssqaapitest/src/utilities/genericUtilities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/ssqaapitest/tests/test_healthcheck.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/src/configs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/src/configs/hosts_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/src/helpers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/src/helpers/customers_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/src/utilities/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/src/utilities/genericUtilities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/src/utilities/requestsUtility.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/tests/customers/test_create_customers_smoke.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test_api_resources/PyTest_Intro(1).pdf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test_api_resources/SQL_Crash_Course_Resources/demostore13_db_dump.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test_api_resources/SQL_Crash_Course_Resources/employees_db_dump.sql" afterDir="false" />
@@ -836,6 +835,9 @@
       <change afterPath="$PROJECT_DIR$/../test_api_resources/api_testing_py_course_material/venv/Scripts/pytest-script.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test_api_resources/api_testing_py_course_material/venv/Scripts/pytest.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/ssqaapitest-1.0-py3.9.egg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/ssqaapitest-1.0-py3.9.egg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssqaapitest.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssqaapitest.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest.egg-info/SOURCES.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -854,12 +856,17 @@
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ssqaapitest/tests/customers/test_create_customers_smoke.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/ssqaapitest/src/helpers/customers_helper.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/setup.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/ssqaapitest/src/utilities/genericUtilities.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/pytest_tutorial/my_tests/test_suite_1.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/pytest_tutorial/my_tests/test_suite_2_with_class.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/ssqaapitest/tests/test_healthcheck.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/pytest_tutorial/my_tests/api_test.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/pytest_tutorial/my_tests/test_suite_1_with_setup_test.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/ssqaapitest/src/configs/hosts_config.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/ssqaapitest/src/utilities/requestsUtility.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1verfk5m01IRcy1CKqfoJrXAMzJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -873,11 +880,12 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pytest_tutorial/my_tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ssqaapitest" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="T:\dev\Python\course-api-testing\ssqaapitest" />
       <recent name="T:\dev\Python\course-api-testing\pytest_tutorial\my_tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
